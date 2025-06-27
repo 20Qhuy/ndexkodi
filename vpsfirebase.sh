@@ -7,7 +7,7 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
   && apt update \
   && apt install ngrok > /dev/null 2>&1
 ngrok config add-authtoken 2MWv85utwyi9ItXxwvdn948ytGR_7q5h1JLXmpMiyW1v4mXZn  
-nohup ngrok tcp 5900 &>/dev/null &
+nohup ngrok tcp 3389 &>/dev/null &
 echo "cài qemu"
 sudo su
 apt update
